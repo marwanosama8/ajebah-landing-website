@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ajebah - Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="font-Cairo">
+    <!-- start nav -->
+    <nav class="bg-gray">
+        <div class="container px-4 mx-auto ">
+            <div class="flex justify-between">
+                <div class="flex space-x-7 ">
+                    <div>
+                        <!-- Website Logo -->
+                        <a href="#" class="flex items-center px-2 py-4">
+                            <img src="./imgs/logo.png" alt="Logo" class="w-auto h-12">
+                        </a>
+                    </div>
+                    <!-- Primary Navbar items -->
+                    <div class="items-center hidden space-x-1 md:flex">
+                        <a href="./index.html"
+                            class="px-4 py-1 font-semibold border-b-4 text-ajebah-blue border-ajebah-blue">Home</a>
+                        <a href="./taxi.html"
+                            class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue">Taxi
+                            Apps</a>
+                        <a href="./gojek.html"
+                            class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue">Gojak
+                            Clone</a>
+                        <a href="./super.html" class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue ">Super
+                            Services App</a>
+                        <a href="./grap.html"
+                            class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue">Grap
+                            Clone</a>
+                        <a href="./delivery.html"
+                            class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue">Delivery
+                            Apps</a>
+                        <a href="./u-for-x.html"
+                            class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue">U
+                            For X</a>
+                        <a href="./our-clients.html"
+                            class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue">Our
+                            CLients</a>
+                        <a href="./about-us.html"
+                            class="px-2 py-4 font-semibold transition duration-300 text-dark hover:text-ajebah-blue">About
+                            Us</a>
+                    </div>
+                </div>
+                <!-- Secondary Navbar items -->
+                <div class="items-center hidden md:flex ">
+                    <a href=""
+                        class="px-2 py-2 btn-primary ">Enquire
+                        Now</a>
+                </div>
+                <div class="hidden md:flex md: md:w-auto md:flex-col md:justify-between md:items-center md:ml-4">
+                    <div class="pt-3">
+                        <a href="#" class="pr-1 text-ajebah-light-blue">العربية</a>
+                        <a href="#" class="pl-1">English</a>
+                    </div>
+                    <div class="relative h-4 mb-4 bg-white rounded-2xl w-28">
+                        <span class="relative float-right text-ajebah-blue bottom-1">
+                            <i style="background-color: blue ;" class="fa-solid fa-circle fa-sm"></i>
+                        </span>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="flex items-center justify-between md:hidden">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-500 hover:text-green-500" x-show="!showMenu" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li class="active"><a href="index.html"
+                        class="block px-2 py-4 text-sm font-semibold text-white bg-green-500">Home</a></li>
+                <li><a href="#services" class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">Taxi
+                        Apps</a></li>
+                <li><a href="#about" class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">Gojak
+                        Clone</a></li>
+                <li><a href="#contact" class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">Super
+                        Services App</a></li>
+                <li><a href="#contact" class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">Grap
+                        Clone</a></li>
+                <li><a href="#contact"
+                        class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">Delivery Apps</a>
+                </li>
+                <li><a href="#contact" class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">U For
+                        X</a></li>
+                <li><a href="#contact" class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">Our
+                        Clients</a></li>
+                <li><a href="#contact" class="block px-2 py-4 text-sm transition duration-300 hover:bg-green-500">About
+                        Us</a></li>
+            </ul>
+            <div class="pb-5 text-center">
+                <a href=""
+                class="px-2 py-2 btn-primary ">Enquire
+                Now</a>
+            </div>
+        </div>
+    </nav>
+    <!-- end nav -->
+
+	<!-- start welcome -->
+	<div class="bg-white">
+		<div class="container py-8">
+			<div class="flex flex-col-reverse justify-between flex-1 md:flex-row ">
+				<!-- content -->
+				<div class="md:w-3/4">
+					<p class="my-8 text-xl text-center text-opacity-black md:text-left">Your search for brilliant <span
+							class="text-ajebah-light-blue">Clone Apps Company ends
+							here!</span></p>
+					<h1 class="mb-4 text-5xl text-opacity-black">WELCOME <span
+							class="font-bold text-ajebah-light-blue ">TO Ajebah</span></h1>
+					<p class="mb-4 leading-10 text-opacity-black">We take Pride in the Reputation we have earned for
+						Launching Most Advanced, User Friendly,
+						Mature, Market-Tested and Fully Optimized Apps!
+						<span class="font-bold text-dark">“QUICK DELIVERY OF QUALITY PRODUCTS”</span> is how our Global
+						Clientele Knows Us! We are here to
+						Deliver you a Fully-Functional App that will help you Achieve Your Dream of Becoming a
+						Successful Entrepreneur!
+					</p>
+					<p class="mb-4 text-xl font-bold text-ajebah-light-blue ">REASONS WHY YOU'LL LOVE US :</p>
+					<div class="mb-8">
+						<ul class="leading-10 ">
+							<li><span class="mr-1 text-ajebah-blue"><i class="fa-solid fa-circle fa-xs"></i></span>We'll
+								Deliver you completely White-Labeled Apps with your Preferred Language & Currency in
+								Record 1-2 Weeks
+							</li>
+							<li>
+								<span class="mr-1 text-ajebah-blue"><i class="fa-solid fa-circle fa-xs"></i></span>Your
+								Preferred Color, Logo, Payment
+								Gateway will also be set in the Apps.
+							</li>
+							<li>
+								<span class="mr-1 text-ajebah-blue"><i class="fa-solid fa-circle fa-xs"></i></span>Your
+								Lifetime Licensed Source Code will be provided
+							</li>
+							<li>
+								<span class="mr-1 text-ajebah-blue"><i class="fa-solid fa-circle fa-xs"></i></span>Your
+								Test-Drive and Browse our DEMO Apps for as long as you want before you make the
+								Purchase!
+							</li>
+							<li>
+								<span class="mr-1 text-ajebah-blue"><i class="fa-solid fa-circle fa-xs"></i></span>Your
+								Part Payment Available - Pay as you see the work!
+							</li>
+							<li>
+								<span class="mr-1 text-ajebah-blue"><i class="fa-solid fa-circle fa-xs"></i></span>Your
+								Start earning Profits from the next day you go LIVE!
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<!-- img -->
+				<div class="mt-4 ">
+					<img class="md:w-3/4 md:float-right" src="./imgs/sec-one.png" alt="" srcset="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end welcome -->
+
+	<!-- start new century -->
+	<div class="bg-gray ">
+		<div class="container py-8">
+			<div class="flex flex-col-reverse justify-between w-full py-12 md:flex-row">
+				<!-- content -->
+				<div class="flex flex-col text-center md:text-left md:w-3/5">
+					<h1 class="text-4xl font-bold text-ajebah-light-blue">APP OF THE 21ST CENTURY - KINGX 2022!</h1>
+					<h1 class="pt-5 font-bold">V3CUBE TAKES PRIDE IN CODING AND DESIGNING THE WORLD’S BIGGEST SUPER APP
+					</h1>
+					<p class="pt-4 leading-10 text-opacity-black">My Fellow Smart Entrepreneur, Our KINGX 2022 App will
+						help you make Easy and Quick Money in no
+						time! And you’ll go on to become the Next Self-Made Billionaire! How? Because you’ll be Earning
+						Commissions on Every Single Service Booked or Order Placed through this Money-Making Super-App.
+						<br />
+						Taxi booking, Transport and Logistics, Food and Grocery Delivery, Online shopping with Immediate
+						Delivery, Money Transfer, Car Wash, Beauticians-on-demand are among the 70 plus Comfort-Driven
+						Services that Our KINGX 2022
+						App has designed for you!
+						<br />
+						V3Cube’s KINGX 2022 has all major Post-Pandemic features that will allow your Customers to have
+						an Instant Online Video Consultation with Doctors, Tutors, Fitness Experts, Lawyers, etc via
+						App. Also, a Newly-Introduced Trending Feature of this App is where your Customers can Post Task
+						Details for the Services they need and get Real-Time Bids from Handymen! Get the Apps delivered
+						with your Branding, Name, Logo, Color, your Preferred Language, Currency, Payment Gateway, etc
+						in just 1-2 Weeks.
+						<br />
+						<span class="text-xl text-dark">DON’T THINK TWICE, <span class="text-ajebah-light-blue"> <a
+									href="#">CONTACT US</a></span> RIGHT NOW!</span>
+					</p>
+					<div class="mt-4 md:text-center">
+					<a href="#" class="px-2 py-2 text-center btn-primary w-60">KINGX
+						2022 - GOJEK CLONE APP</a>	
+					</div>
+					
+				</div>
+				<!-- img -->
+				<div class="pb-8 md:pb-0">
+					<img  src="./imgs/sec-two.png" alt="" srcset="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end new century -->
+
+	<!-- start just one -->
+	<div class="container py-8">
+		<!-- first div -->
+		<div class="flex flex-col items-center justify-center text-center md:flex-row md:items-start md:text-left">
+			<!-- img -->
+			<div class="md:w-1/4 ">
+				<img src="./imgs/third-sec.png" alt="" srcset="">
+			</div>
+			<!--  content -->
+			<div class="flex flex-col md:w-3/4 md:pt-12 ">
+				<h1 class="mb-4 text-4xl font-bold text-ajebah-light-blue">JUST ONE GOOD THING</h1>
+				<h1 class="mb-4 text-xl font-bold">THE PANDEMIC IS GONE</h1>
+				<p class="text-opacity-black">And it has made Us Realize that <span class="text-dark">We Do Not Need
+						to Step Out</span> to either Shop for Everyday Essentials
+					or even Seek Professional Opinion!
+					This Highly-Contagious Novel Coronavirus has given Birth to Two Major <span class="text-dark">“On
+						Demand Industries”</span>.
+					And These Industries have Flourished due to the Recent Technological Advancements. And Who will
+					bear the Fruit of this Digital Revolution? You, My Dearest Entrepreneur! You’ll be Making
+					Millions of US Dollars in Absolutely No Time! We are just one call away!</p>
+			</div>
+		</div>
+		<div
+			class="flex flex-col items-center justify-center flex-auto md:items-stretch md:flex-row md:justify-between">
+			<!-- panner 1 -->
+			<div class="flex flex-col items-center gap-5 mt-8 panner md:mt-0">
+				<!-- title -->
+				<h1 class="text-4xl text-center text-new-gray">ON-DEMAND SERVICES APP</h1>
+				<!-- img -->
+				<img src="./imgs/third-sec-2.png" alt="">
+				<!-- one -->
+				<p class="text-opacity-black">Allow Your Customers to Request for an Immediate <span
+						class="text-dark">Online Video Consultation</span> Session with Doctors,
+					Tutors, Lawyers, Yoga Trainers, etc. And Once the Video Call has Ended, Money will be
+					Automatically Deducted from your Customers’ Credit Card. What’s in it for you? You get to Earn
+					Commission for Every Single Confirmed Video Call.</p>
+				<p class="text-opacity-black">And your Customers can <span class="text-dark">Hire Service
+						Provider’s</span> such as Car Washers, Beauticians, Doctors,
+					Lawyers, Massage Therapists, Dog-Walkers, Baby-Sitters, Maids, Security Guards, and even
+					Physiotherapists and 62 More Registered Professionals.
+					On the Checkout Page, Your Customers get to Select the Service Location. Now it could be either
+					their Home or Service Center of the Skilled Expert.</p>
+				<p class="text-opacity-black">Your Customers would Love to know that they can <span
+						class="text-dark">Place Bids / Bargain the Service</span> Charges Directly
+					with Handymen such as Carpenters, Electricians, Plumbers, Painters, Home Cleaners, etc. It is
+					through these Online Negotiations that your Customer gets to have the Best Ever Offer at a
+					Reasonable Price.
+					Here, your Customers can Choose to Pay either in Cash or Make an Online Payment using Credit
+					Cards and In-App Wallet Money. And Once Again you’ll be busy Making Good Amount of Commissions
+					Per Task Booked.</p>
+				<div class="">
+					<a href="" class="px-2 py-2 btn-primary">SUPERX SP APP - ALL IN 1 SERVICES APP</a>
+				</div>
+			</div>
+			<!-- separate -->
+			<div class=" hidden md:block md:h-42 md:w-0.5 md:bg-opacity-black mx-5"></div>
+			<!-- panner 2 -->
+			<div class="flex flex-col items-center gap-5 mt-8 panner md:mt-0">
+				<!-- title -->
+				<h1 class="text-4xl text-center text-new-gray">ON-DEMAND DELIVERIES APP</h1>
+				<!-- img -->
+				<img src="./imgs/third-sec-3.png" alt="">
+				<!-- one -->
+				<p class="text-opacity-black ">Your Customers can <span class="text-dark">Order Food, Groceries,
+						Medicines,</span> and so much more from their Nearby Stores
+					using this App. And Everything Gets Delivered Instantly via Delivery Drivers chosen through an
+					Automated Process. And For Every Successfully Delivered Order, you Earn a Commission - A Big Fat
+					One!</p>
+				<p class="text-opacity-black">A Special Category of Service allows your Customers to <span
+						class="text-dark">hire a GENIE</span> to Buy/ Fetch any item from
+					within the city. </p>
+				<p class="text-opacity-black">And what if your Customer wants to Send Flowers, Envelopes, Laptops,
+					Small Items, Furniture or
+					even 100 Bags of Cement Bags From One Location to Another? You have got Well-Qualified Delivery
+					Drivers to Complete the Tasks Assigned. This is covered under <span class="text-dark">Parcel /
+						Courier Delivery</span> Section.
+					All that your Customer has to Do is Choose the Type of Delivery Vehicle that depends Entirely on
+					the Size and Quantity of the Parcel!
+					Your Customer will Choose a Bicycle or a Two-Wheeler to Deliver a Bouquet of Freshly-Picked
+					Lilies. But would choose a Truck to send Hundreds of Cement Bags to the Nearest Construction
+					Site. And Once Again you’ll be busy Making Good Amount of Commissions for every successful
+					Delivery.</p>
+				<div class="flex justify-center">
+					<a href="" class="p-2 btn-hover">DELIVERYKING APP - ALL IN 1 DELIVERIES APP</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end just one -->
+
+	<!-- start rose sec  -->
+	<div class="bg-rose">
+		<div class="container ">
+			<div class="flex flex-col-reverse justify-around md:flex-row ">
+				<!-- img -->
+				<div class="pt-10 md:pl-8 ">
+					<img class="md:max-w-none max-w-auto" src="./imgs/fourth-sec.png" alt="" srcset="">
+				</div>
+				<!-- content -->
+				<div class="flex flex-col mt-8 text-center md:mt-16 md:ml-12 md:text-left">
+					<h1 class="text-5xl font-bold text-ajebah-light-blue">MORE THAN 1200</h1>
+					<h1 class="mt-6 text-dark md:text-2xl">MOBILE APPLICATIONS LAUNCHED SINCE JAN 2016 TILL DATE.</h1>
+					<h1 class="mt-4 text-xl text-opacity-black">Our dedication towards bringing better and smarter
+						solutions for our clients is the sole reason
+						for our success. We aim at mobilizing the use of latest in the world of technical infrastructure
+						to produce surreal apps that can be the stepping stone for the success of our clients.</h1>
+					<h1 class="mt-4 text-xl text-opacity-black">
+						We love our work and have gained expertise in Designing and Development of Websites, Mobile Apps
+						for Android & iPhone/iOS Phones and Wearable Devices Apps through years of practice and
+						perfection. We have perfected the clone scripts of many well-known Apps and Websites like Taxi,
+						all Services On Demand, Ride Sharing, etc and we offer them to our clients at most economical
+						rates.
+					</h1>
+					<h1 class="mt-4 text-xl text-opacity-black">
+						Because We Have Been Launching Mature, Market-Tested and Fully-Optimized Apps on a Regular Daily
+						Basis for Past Six Years Now, We Know this On-Demand Industry like No Other. We Know Which All
+						Services are Highest in Demand and How can We Help Well-Educated Entrepreneurs like you to Go
+						Live with your Completely White-Labeled App to Start Earning in Billions of US Dollars!
+					</h1>
+					<a class="p-1 mt-8 text-xl btn-primary md:w-1/5" href="#">View Details</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end rose sec -->
+
+	<!-- start enthralled -->
+	<div class="flex flex-col md:flex-row">
+		<!-- first div -->
+		<div
+			class="flex flex-col gap-5 py-6 text-center md:pl-32 md:pr-10 md:py-24 md:text-left md:w-7/12 bg-opacity-black">
+			<h1 class="text-4xl font-bold text-rose">GET ENTHRALLED</h1>
+			<p class="text-xl font-bold text-white">WITH THE AJEBAH APPS!</p>
+			<p class="leading-8 text-white ">If you have an awe inspiring idea for a business and want to watch
+				it
+				materialize, we are the
+				solution. Our team of highly skilled expert professionals nurtures the seed of your ideas and
+				helps it grow into a profit bearing tree.</p>
+			<p class="leading-8 text-white">Our interactive Mobile applications will make you forget average
+				dreary and
+				mundane apps by
+				morphing them into ground breaking profit generating modern apps. Our application and website
+				clones of some the most prominent sites are the perfect solutions to bring that buzz into your
+				business. Ready to go live in just two days, they are the perfect solution to kill the monotony
+				and bring fresh rewards back into your business.</p>
+			<p class="leading-8 text-white">In today's highly competitive business world, it is a matter of
+				survival of the fittest and the
+				most inventive. In the digital world, your inventions should be exclusive in order to be able to
+				withstand the competition
+				and that is why we at V3CUBE work tirelessly to provide exclusive, unique and powerful
+				solutions. We design and provide products that will stand the test of time in today's highly
+				competitive world, and ensure that your product will weather any storm and make you a force to
+				be reckoned with.</p>
+		</div>
+		<!-- sec div -->
+		<div class="flex justify-center w-auto mt-10 md:mt-0">
+			<div class="flex flex-col items-center justify-center w-auto gap-6 md:ml-12 md:mt-4">
+				<div class="flex items-center justify-between need-gap-1 ">
+					<div class="flex flex-col items-center justify-center gap-2 mrg-1-r">
+						<img class="img-sec" src="./imgs/fifth-sec-1.png" alt="" srcset="">
+						<h1 class="text-3xl font-bold text-opacity-black">2005</h1>
+						<h1 class="text-ajebah-orange">Founded</h1>
+					</div>
+					<div class="flex flex-col items-center justify-center gap-2 mrg-1-l">
+						<img class="img-sec" src="./imgs/fifth-sec-2.png" alt="" srcset="">
+						<h1 class="text-3xl font-bold text-opacity-black">52 +</h1>
+						<h1 class="text-ajebah-orange">Employes</h1>
+					</div>
+				</div>
+				<div class="flex items-center need-gap-2">
+					<div class="flex flex-col items-center justify-center gap-2 mrg-2-r">
+						<img class="img-sec" src="./imgs/fifth-sec-4.png" alt="" srcset="">
+						<h1 class="text-3xl font-bold text-opacity-black">2</h1>
+						<h1 class="text-center text-ajebah-orange max-w-fit fit-title">Apps Everyday</h1>
+					</div>
+					<div class="flex flex-col items-center justify-center gap-2 mrg-2-l need-another-gap">
+						<img class="img-sec" src="./imgs/fifth-sec-3.png" alt="" srcset="">
+						<h1 class="text-3xl font-bold text-opacity-black">1200</h1>
+						<h1 class="text-ajebah-orange">App
+							Launched</h1>
+					</div>
+				</div>
+				<div class="flex items-center need-gap-3">
+					<div class="flex flex-col items-center justify-center gap-2">
+						<img class="img-sec" src="./imgs/fifth-sec-5.png" alt="" srcset="">
+						<h1 class="text-3xl font-bold text-opacity-black">99 %</h1>
+						<h1 class="text-ajebah-orange">Repeated
+							Clients</h1>
+					</div>
+					<div class="flex flex-col items-center justify-center gap-2">
+						<img class="img-sec-3 " src="./imgs/fifth-sec-6.png" alt="" srcset="">
+						<h1 class="text-3xl font-bold text-opacity-black">100 %</h1>
+						<h1 class="text-ajebah-orange">Customer Satisfaction</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end enthralled -->
+
+	<!-- start your mobile app -->
+	<div class="container py-8">
+		<div class="flex flex-col py-10 md:flex-row md:justify-start">
+			<!-- img 1 -->
+			<div class="hidden w-auto w-1/3 md:block">
+				<img src="./imgs/sixth-sec-1.png" alt="" srcset="">
+			</div>
+			<!-- content -->
+			<div class="flex flex-col gap-5 mx-4 text-center md:w-1/3 md:text-left">
+				<h1 class="text-4xl font-bold text-ajebah-light-blue">Ajebah</h1>
+				<h1 class="text-black ">YOUR MOBILE APP DEVELOPERS FOR LIFE</h1>
+				<h1 class="leading-7 text-opacity-black">We, the proud V3Cubians, work with the simple Aim to
+					Deliver
+					Perfection and the Best to Our
+					Clients.</h1>
+				<h1 class="leading-7 text-opacity-black">
+					Watch these videos to hear our Client's Past Experience of working with Other Companies in their
+					10-15 Year Long Tenure and how those Companies took Hefty Money but were not able to Deliver the
+					Quality Product that they Promised.
+				</h1>
+				<h1 class="leading-7 text-opacity-black">And how these Clients had to then hire Freelancers to Fix
+					the Flaws
+					in those Apps.</h1>
+				<h1 class="leading-7 text-opacity-black">Then you’ll hear them share their Experience of working
+					with V3Cube.
+					Listen to them as they
+					Discuss how they got Timely Delivery of the Apps that were Promised to them. How they have
+					Stayed Connected to V3Cube for Years even after the Successful Launch of the App. They were
+					Impressed with our After-Sales Service because we helped them keep their Apps Well-Maintained
+					and Updated. Towards the End, they share their Future Plans of working with V3Cube Again. That
+					they have Already Started Discussing their Second or Third Projects with us.</h1>
+				<h1 class="leading-7 text-opacity-black">Concluding the Video, they are seen to be thanking the
+					Technical Project Manager for their
+					Support throughout the Entire Process and giving V3Cube the title "Developers for Life". They
+					End on a Sweet Note by Encouraging other Entrepreneurs to come work with us.</h1>
+				<a class="btn-primary md:w-80 md:py-1" href="#">SUPERX SP APP - ALL IN 1 SERVICES APP</a>
+			</div>
+			<!-- img 2 -->
+			<div class="hidden w-auto w-1/3 md:block">
+				<img src="./imgs/sixth-sec-2.png" alt="" srcset="">
+
+			</div>
+		</div>
+	</div>
+	<!-- end your mobile app -->
+
+	<!-- start why skype -->
+	<div class="container py-8 mt-8">
+		<div class="flex flex-col-reverse flex-1 md:flex-row">
+			<div class="flex flex-col gap-5 py-4 md:w-3/5">
+				<h1 class="text-2xl font-bold text-center text-ajebah-light-blue md:text-left md:text-4xl">WHY SKYPE
+					CALL WHEN WE CAN COME TO YOUR COUNTRY?
+				</h1>
+				<h1 class="leading-4 text-dark">
+					AJEBAH ATTENDS LAUNCH AND IMPORTANT MEETINGS AT YOUR OFFICE IN YOUR COUNTRY. AND SHARES EXPERIENCES
+					RELATED TO PLANNING AND IDEAS TO RUN THE BUSINESS
+				</h1>
+				<h1 class="leading-4 text-opacity-black">My Dearest Entrepreneur, we know this ON-DEMAND SERVICE
+					INDUSTRY Inside Out! We have been Launching
+					such Apps for Many Years Now and have Almost Two Decades of Experience in the Software Industry.
+					So when you Launch any of <span class="font-bold text-dark">OUR APPS</span> in your City, and Invite
+					Us Over, We would be Grateful to Have
+					you as our Host! Also, we'll be Happy to Share our In-Depth Knowledge with you! Give us the Honor to
+					Help you with Business Planning, Marketing and Discussing Ideas related to Technical Maintenance of
+					the System.</h1>
+				<h1 class="leading-4 text-opacity-black">
+					See how few of our Clients invited us over to Join in for the Lavish Pre-Launch Party of their Gojek
+					Clone App. The Client was in urgency and understanding the emergency, we launched a Fully-Functional
+					Powerful Gojek Like App for his Company in a Record 10 Days! They just couldn’t Stop Complimenting
+					Us for our Remarkable Work Ethic! And that is why they had sent in a Special Invitation and
+					sponsored the trip for the V3Cube Team to Come and See What Big a Success this Super App had already
+					become in their Country. We are Grateful to them for this Experience!
+				</h1>
+				<h1 class="leading-4 text-opacity-black ">
+					So, If you too want to discuss Your Unique Ideas and Big Plans with any of our Products, Contact Us
+					Right Away! When you’ll be busy making Arrangements for our Trip, we’ll Busy Strategizing a Business
+					Plan that will Help you Capture the Whole of Market with our Mature and Market-Tested Apps.
+				</h1>
+				<div class="flex justify-center md:justify-start">
+
+					<a class="px-2 py-2 btn-primary" href="#">Contact Us Now</a>
+				</div>
+			</div>
+			<div class="ali">
+				<img src="./imgs/seventh-sec.png" alt="" srcset="">
+			</div>
+		</div>
+	</div>
+	<!-- end why skype -->
+
+	<!-- start products -->
+	<div class="container py-10">
+		<div class="flex flex-col items-center justify-center">
+			<!-- content -->
+			<div class="flex flex-col items-center gap-5">
+				<h1 class="text-4xl font-bold text-ajebah-light-blue">PRODUCTS</h1>
+				<h1 class="text-xl text-dark">WIDE RANGE OF PRODUCTS</h1>
+				<h1 class="text-center text-opacity-black">We've done it all! Our portfolio has a diverse assortment of
+					apps that our team has built. Need a
+					service? We've got the app! We have been in the app building business for a very long time and are
+					specialists in design and development of Websites, Mobile Apps for Android & iPhone / iOS Phones and
+					Wearable Devices Apps. V3cube bestselling cloned script apps are:
+				</h1>
+			</div>
+			<!-- panners -->
+			<div class="mt-10">
+				<div class="flex flex-col flex-wrap justify-between md:flex-row md:gap-5">
+					<div class="box-Home-Page">
+						<div class="box-1">
+							<div class="min-w-full text-center bg-new-gray">
+								<p class="py-4 font-bold text-white">GOJEK CLONE</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-Home-Page">
+						<div class="box-2">
+							<div class="min-w-full text-center bg-new-gray">
+								<p class="py-4 font-bold text-white">FOOD DELIVERY ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-Home-Page">
+						<div class="box-3">
+							<div class="min-w-full text-center bg-new-gray">
+								<p class="py-4 font-bold text-white">GROCERY DELIVERY ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-Home-Page">
+						<div class="box-4">
+							<div class="min-w-full text-center bg-new-gray">
+								<p class="py-4 font-bold text-white">TAXI BOOKING APP</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-Home-Page">
+						<div class="box-5">
+							<div class="min-w-full text-center bg-new-gray">
+								<p class="py-4 font-bold text-white">SERVICE PROVIDER ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="box-Home-Page">
+						<div class="box-6">
+							<div class="min-w-full text-center bg-new-gray">
+								<p class="py-4 font-bold text-white">GROCERY DELIVERY ON DEMAND</p>
+							</div>
+							<div class="div-hover">
+								<a class="text-3xl font-bold" href="#">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end products -->
+
+	<!-- start quick -->
+	<div class="items-center justify-center md:flex">
+		<div class="flex flex-col items-center justify-center gap-5 orange-div">
+			<h1 class="text-4xl font-bold text-center text-white">QUICK DELIVERY OF ON-DEMAND</h1>
+			<h1 class="text-xl text-white">APPS IS IN OUR VEINS</h1>
+			<h1 class="w-2/3 text-xl text-center text-white">7 days is all we need to launch your App. And from the
+				moment
+				you go live, you start raking in profits because that’s how the business model of our On-Demand
+				Service Apps have been designed. With the purchase of the Package, we’ll also rebrand our base App
+				with your Company’s Name and Logo. We’ll integrate your preferred Language and Currency for the ease
+				of your customers no matter where you hail from.
+			</h1>
+			<a href="#" class="text-xl btn-hover md:w-auto w-36 ">SUPERX SP APP - ALL IN 1 SERVICES APP</a>
+		</div>
+	</div>
+	<!-- end quick -->
+
+	<!-- start buy -->
+	<div class="container py-8">
+		<div class="flex flex-col items-center justify-center ">
+			<!-- content -->
+			<div class="text-center">
+				<h1 class="text-4xl font-bold text-ajebah-light-blue">BUY OUR PRODUCTS</h1>
+				<h1 class="mt-6">WITH TOP NOTCH SUPPORT</h1>
+			</div>
+			<!-- first row -->
+			<div class="mt-6 w-3/3">
+				<div class="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-8">
+					<div class="flex flex-col items-center justify-center gap-4 md:w-1/3">
+						<img src="./imgs/tenth-sec-1.png" class="max-w-fit" alt="">
+						<p class="font-bold text-center">LIFETIME EXTENDED LICENSE FOR 1 BRAND / DOMAIN</p>
+						<p class="text-center text-opacity-black ">You just pay us once and get licenses for
+							the code for lifetime for your Brand / Domain.</p>
+					</div>
+					<div class="flex flex-col items-center justify-center gap-4 md:w-1/3 ">
+						<img src="./imgs/tenth-sec-2.png" class="max-w-fit" alt="">
+						<p class="font-bold text-center">SUPPORT ALL ROUND THE YEAR</p>
+						<p class="text-center text-opacity-black ">Your Technical manager will be available
+							all round the clock for after Sales Support.</p>
+					</div>
+					<div class="flex flex-col items-center justify-center gap-4 md:w-1/3 ">
+						<img src="./imgs/tenth-sec-3.png" class="max-w-fit" alt="">
+						<p class="font-bold text-center">LOCAL CURRENCY AND LANGUAGE OPTIONS</p>
+						<p class="text-center text-opacity-black ">Your Preferred Currency and Language
+							Options will be added to the system.</p>
+					</div>
+				</div>
+			</div>
+			<!-- second row -->
+			<div>
+				<div class="mt-6 w-3/3">
+					<div class="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-0">
+						<div class="flex flex-col items-center justify-center gap-4 md:w-1/3 ">
+							<img src="./imgs/tenth-sec-4.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center ">FREE INSTALLATION THE SYSTEM ON YOUR SERVER & APPS PLAY
+								STORES</p>
+							<p class="text-center text-opacity-black ">We ensure that we'll get your
+								Application approved on Play Store & App Store and won't get it rejected for any
+								technical issue.</p>
+						</div>
+						<div class="flex flex-col items-center justify-center gap-4 md:w-1/3 ">
+							<img src="./imgs/tenth-sec-5.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">SUPPORT ALL ROUND THE YEAR</p>
+							<p class="text-center text-opacity-black ">Your Technical manager will be
+								available all round the clock for after Sales Support.</p>
+						</div>
+						<div class="flex flex-col items-center justify-center gap-4 md:w-1/3 ">
+							<img src="./imgs/tenth-sec-6.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">LOCAL CURRENCY AND LANGUAGE OPTIONS</p>
+							<p class="text-center text-opacity-black ">Your Preferred Currency and Language
+								Options will be added to the system.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end buy -->
+
+	<!-- start when -->
+	<div class="bg-gray">
+		<div class="container w-auto py-8">
+			<!-- content -->
+			<div class="text-center ">
+				<h1 class="text-4xl font-bold text-ajebah-light-blue">WHEN CLIENTS VISIT US!</h1>
+				<h1 class="mt-4">IT'S NOTHING BUT ENCOURAGEMENT AND APPRECIATION</h1>
+			</div>
+			<!-- cards -->
+			<div class="flex flex-col items-center justify-center gap-5 mt-5">
+				<!-- first row -->
+				<div class="flex flex-col justify-between gap-4 md:flex-row">
+					<div
+						class="flex flex-col gap-4 duration-300 bg-white rounded drop-shadow-lg hover:scale-105 md:w-1/3">
+						<img src="./imgs/11-sec-1.png" alt="" srcset="">
+						<p class="w-auto px-1 leading-8 text-left md:text-left text-opacity-black">This video from our
+							client
+							from Malaysia will give you an insight into how important it is for
+							the business to keep running regardless of the pandemic that has affected the entire world.
+							Watch this video to meet this client who visited us all the way from his homeland to
+							Ahmedabad
+							specially to get his business running and sharing his perspective on the same and ending the
+							video with his idea that during this period having an on demand business model will be the
+							best
+							way forward.</p>
+						<p class="px-1 mb-12 font-bold text-md">MR. NABIL</p>
+					</div>
+					<div
+						class="flex flex-col gap-4 duration-300 bg-white rounded drop-shadow-lg hover:scale-105 md:w-1/3">
+						<img src="./imgs/11-sec-2.png" alt="" srcset="">
+						<p class="w-auto px-1 leading-8 text-left md:text-left text-opacity-black">A genuine client from
+							South
+							America visits our Development center. Mr. Juan shares his valuable and authentic experience
+							regarding the working culture of the company. He also discusses the Multi Purpose App Clone
+							that he purchased from us and delivered the words of thanks for developing such an amazing
+							app without any inconvenience. Mr. Juan recommends V3Cube and also promised us to work in
+							the future for his upcoming projects.</p>
+						<p class="px-1 mb-12 font-bold text-md">MR. JUAN</p>
+					</div>
+					<div
+						class="flex flex-col gap-4 duration-300 bg-white rounded drop-shadow-lg hover:scale-105 md:w-1/3">
+						<img src="./imgs/11-sec-3.png" alt="" srcset="">
+						<p class="w-auto px-1 leading-8 text-left md:text-left text-opacity-black">Watch this video to
+							meet Mr.
+							Majed, our client from Saudi Arabia who paid a surprise visit to verify our Development
+							Centre and then ordered our latest application Gojek Clone. Take a glance through it to know
+							about his experience of association with our organization from September 2019 to January
+							2020. Hear him as he explains how we made sure to give a detailed demo of the solution,
+							encouraged other businesses to work with us and the happiness on the product going live in
+							some days from now.</p>
+						<p class="px-1 mb-12 font-bold text-md">MR. MAJED</p>
+					</div>
+				</div>
+				<!-- second row -->
+				<div class="flex flex-col justify-between gap-4 md:flex-row">
+					<div
+						class="flex flex-col gap-4 duration-300 bg-white rounded drop-shadow-lg hover:scale-105 md:w-1/3">
+						<img src="./imgs/11-sec-4.png" alt="" srcset="">
+						<p class="w-auto px-1 leading-8 text-left md:text-left text-opacity-black">This video from our
+							client
+							Have a peek into this video to meet Michael C. our client from Indonesia for whom we built
+							and white-labelled Gojek Clone Solution. Hear him as he shares his experience of finding us
+							and coming all the way to Ahmedabad to see us live at work. Listen to him as he commends us
+							for the professionalism and hospitality and motivates other businesses to work with us!</p>
+						<p class="px-1 mb-12 font-bold text-md">MR. MICHAEL C.</p>
+					</div>
+					<div
+						class="flex flex-col gap-4 duration-300 bg-white rounded drop-shadow-lg hover:scale-105 md:w-1/3">
+						<img src="./imgs/11-sec-5.png" alt="" srcset="">
+						<p class="w-auto px-1 leading-8 text-left md:text-left text-opacity-black">Hear Archivaldo talk
+							about
+							how much he enjoyed his visit here. He fell so in love with India that bought our kinds of
+							clothes and would wear them to office here. He talks about his inhibitions initially and
+							later how he got comfortable as he met the development team here.</p>
+						<p class="px-1 mb-12 font-bold text-md">MR. ARCHIVALDO C.</p>
+					</div>
+					<div
+						class="flex flex-col gap-4 duration-300 bg-white rounded drop-shadow-lg hover:scale-105 md:w-1/3">
+						<img src="./imgs/11-sec-6.png" alt="" srcset="">
+						<p class="w-auto px-1 leading-8 text-left md:text-left text-opacity-black">Hear what Mark feels
+							about
+							visiting us in our office. He took stock of our infrastructure to gauge whether we can
+							deliver the promised or not. He also speaks about meeting our development team and feeling
+							satisfied with their skills and quality of work.</p>
+						<p class="px-1 mb-12 font-bold text-md">MR. MARK S.</p>
+					</div>
+				</div>
+				<a class="px-2 py-2 btn-primary" href="#">View More Details</a>
+			</div>
+		</div>
+	</div>
+	<!-- end when -->
+
+	<!-- start ajebah -->
+	<div class="bg-white">
+		<div class="container py-8 ">
+			<div class="flex flex-col md:flex-row">
+				<div class="flex flex-col gap-5 py-10 md:w-1/2 md:mr-3">
+					<h1 class="text-4xl font-bold leading-9 text-ajebah-light-blue">
+						AJEBAH’S ANGOLAN PARTNERS HAVE WON THE 1ST PRIZE
+					</h1>
+					<h1 class="font-bold font-xl">IN DIGITAL STARTUP COMPETITION</h1>
+					<h1 class="leading-9 text-opacity-black">The South-African Nation of Angola is where we found our
+						client a while back. These
+						self-motivated and hard-working Angolan Entrepreneurs were ideating and trying to finalise
+						what service to offer and build their business on.</h1>
+					<h1 class="leading-9 text-opacity-black">
+						This is where V3Cube makes a classic entrance and woo them with their Apps to the extent that
+						they are swept off of their feet. They bought a fully-functional and market-tested app from us
+						and started running their business in their hometown in Angola. They allowed their App Users to
+						pay in their official currency Kwanza and browse content in Portuguese. Their App became a
+						household name in a matter of weeks’ time and they were doing well from the App Launch date
+						itself. This is when they participated in their country’s biggest start-up competition and they
+						undisputedly won the first prize.
+					</h1>
+					<h1 class="leading-9 text-opacity-black">
+						We had rebranded our base app with their company’s name and logo and even changed their entire
+						app’s colour theme to match with the colour of the company’s logo. We are so proud of our
+						Angolan Clients for their success and achievements and feel grateful that we could be a part of
+						it. This again is a living proof that we are the industry stalwarts and are the pioneers of
+						futuristic clone app development business.
+					</h1>
+				</div>
+				<div class="flex justify-between md:w-1/2">
+					<div class="flex items-end img-start">
+						<img src="./imgs/12-sec-2.png" alt="">
+					</div>
+					<div class="flex items-start img-start">
+						<img src="./imgs/12-sec-1.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end ajebah -->
+
+	<!-- start a real -->
+	<div class="container py-8">
+		<!-- content -->
+		<div class="text-center ">
+			<h1 class="text-4xl font-bold text-ajebah-light-blue ">A REAL COMPANY</h1>
+			<h1 class="mt-4 font-bold">WITH REAL CLIENTS</h1>
+			<h1 class="mt-4 text-opacity-black">Client Photographs Prove Testimony to Genuineness of Our Work Every time
+				we deliver our clients with their
+				desired solution, they leave behind with a smile on their face that gets captured by us in the form of a
+				photograph to prove testimony to the genuineness of the services that we render to them.</h1>
+		</div>
+		<div class="mt-8">
+			<img src="./imgs/13-sec-1.png" alt="">
+		</div>
+		<div class="mt-1">
+			<img src="./imgs/13-sec-1.png" alt="">
+		</div>
+	</div>
+	<!-- end a real -->
+
+	<!-- start creating -->
+	<div class="my-8">
+		<!-- content -->
+		<div class="container py-8 text-center ">
+			<h1 class="text-4xl font-bold text-ajebah-light-blue">CREATING HAPPY MEMORIES</h1>
+			<h1 class="mt-2 text-xl">WITH CLIENTS</h1>
+		</div>
+		<div class="flex flex-col mt-2 md:flex-row">
+			<div class="py-8 bg-ajebah-orange need-width ">
+				<div class="">
+					<img class="relative left-7" class="width-need" src="./imgs/14-sec-1.png" alt="">
+				</div>
+			</div>
+			<div class="flex flex-col mx-2 md:w-1/2 md:mx-0 md:pl-16 ">
+				<h1 class="leading-8 text-opacity-black">
+					We, at Ajebah work as a family. While our focus is strongly driven towards delivering excellent
+					solutions to our clients, we also understand that all work and no play makes jack a dull boy. Since
+					we are an offshore company working with clients from all over the world, we take every opportunity
+					of meeting with clients to create fond memories that can help us cherish them forever. Take a look
+					at some of the scintillating pictures from our recent adventures with our clients. Here we have our
+					client from Nairobi, Kenya who visited us for his Gojek clone development requirements. Over a cup
+					of tea and a general discussion we found out that his
+				</h1>
+				<h1 class="mt-4 text-4xl font-bold text-ajebah-orange">
+					MOST LOVED SPORT WAS GOLF.
+				</h1>
+				<h1 class="mt-4 leading-8 text-opacity-black">Our manager turned every stone to make his trip to India a
+					memorable one by taking him to the
+					COUNTRY’S LARGEST GOLF COURSE to play a game or two followed by a generous supper. His smile at the
+					end of the day was a great prize for us. So, if you are planning to visit us in Ahmedabad to discuss
+					your projects, rest assured we will do everything to see a <span class="font-bold text-dark">BRIGHT
+						SMILE ON YOUR FACE.</span></h1>
+				<h1 class="mt-4 leading-8 text-opacity-black">Outings and adventures are just one part of our work
+					culture. Take a look at Archivaldo, our client
+					from Chile who visited us for his own App development requirements. He is a patron of GOOD MUSIC and
+					happened to tell us about his fondness of guitars. We arranged for a quick little concert in office
+					for him where he got the stage to himself. He played some wonderful soulful songs by his FAVORITE
+					ARTISTS, CAT STEVENS AND BEATLES FOR US. The whole office was murmuring with fervour and was totally
+					refuelled with energy to work significantly more earnestly for every one of the clients. Many thanks
+					ARCHIVALDO! <span class="font-bold text-dark">WE LOVED YOUR SINGING AND CAN'T WAIT TO HAVE YOU
+						BACK.</span></h1>
+						<div class="mt-4 text-center">
+				<a class="px-2 py-2 mt-4 btn-primary" href="#">View More Videos</a>			
+						</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- end creating -->
+
+	<!-- start our core -->
+	<div class="bg-white-gray">
+		<div class=" md:mx-8 md:py-8">
+			<div class="flex flex-col items-center justify-center ">
+				<!-- content -->
+				<div class="text-center">
+					<h1 class="text-4xl font-bold text-ajebah-light-blue">OUR CORE ETHICAL VALUES</h1>
+					<h1 class="mt-6">THAT WE DEEPLY BELIEVE IN AND DELIVERING ONLY HIGH-QUALITY PRODUCTS TO OUR CLIENTS!
+					</h1>
+					<h1 class="mt-3 text-opacity-black">We are the Most Credible and Trustworthy White-Labeling Firm in
+						the On-Demand Service Delivery
+						Industry. Honestly, it is an Outstanding Achievement. And it is All because of the Following Set
+						of Moral Values that We Hold Onto Dearly!</h1>
+				</div>
+				<!-- first row -->
+				<div class="w-auto mt-6">
+					<div class="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-8">
+						<div class="flex flex-col items-center justify-center gap-4 md:w-1/3">
+							<img src="./imgs/15-sec-1.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">INTEGRITY</p>
+							<p class="text-center text-opacity-black md:w-96">We run our company with the utmost
+								integrity as we know that reliability, honesty and diligence are the reasons why clients
+								prefer to work with us. We always strive for success and that is why we are the best in
+								our field.</p>
+						</div>
+						<div class="flex flex-col items-center justify-center gap-4 md:w-1/3">
+							<img src="./imgs/15-sec-2.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">EXCELLENCE</p>
+							<p class="text-center text-opacity-black md:w-96">We are passionate about our work and
+								work hard to make sure that our perseverance pays off. Our products have that unique
+								mark of excellence that stands out amongst other similar products.</p>
+						</div>
+						<div class="flex flex-col items-center justify-center gap-4 md:w-1/3">
+							<img src="./imgs/15-sec-3.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">RESPECT</p>
+							<p class="text-center text-opacity-black md:w-96">We listen to what you have to say and
+								act according to your requirements. We respect and value all our clients and that
+								respect is always reflected in the way we deal with you.</p>
+						</div>
+					</div>
+				</div>
+				<!-- second row -->
+				<div>
+					<div class="w-auto mt-6">
+						<div class="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-8">
+							<div class="flex flex-col items-center justify-center gap-4 md:w-1/3">
+								<img src="./imgs/15-sec-4.png" class="max-w-fit" alt="">
+								<p class="font-bold text-center">CONFIDENTIALITY AND SECURITY</p>
+								<p class="text-center text-opacity-black md:w-96">We run our company with the
+									utmost integrity as we know that reliability, honesty and diligence are the reasons
+									why clients prefer to work with us. We always strive for success and that is why we
+									are the best in our field.</p>
+							</div>
+							<div class="flex flex-col items-center justify-center gap-4 md:w-1/3">
+								<img src="./imgs/15-sec-5.png" class="max-w-fit" alt="">
+								<p class="font-bold text-center">EXCELLENCE</p>
+								<p class="text-center text-opacity-black md:w-96">Having been in the business
+									since 2005, our team has a wealth of experience amongst them, which is reflected
+									openly in our products. Our expertise in this field is match by none.
+								</p>
+							</div>
+							<div class="flex flex-col items-center justify-center gap-4 md:w-1/3">
+								<img src="./imgs/15-sec-6.png" class="max-w-fit" alt="">
+								<p class="font-bold text-center">DELIVER</p>
+								<p class="text-center text-opacity-black md:w-96">We aim to launch our product in
+									approximately 3-4 days and we do exactly that. As soon as we receive setup
+									information, we start the White Labelling Process. Every deadline committed to our
+									clients is adhered to at all times.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end our core -->
+
+	<!-- start compassion -->
+	<div class="container py-8">
+		<!-- content -->
+		<div class="text-center">
+			<h1 class="text-4xl font-bold text-ajebah-light-blue">COMPASSION AND KINDNESS ARE</h1>
+			<h1 class="mt-6 font-bold">OUR GUIDING LIGHTS</h1>
+		</div>
+		<!-- flex -->
+		<div class="flex flex-col mt-6 md:flex-row">
+			<div class="md:w-1/2">
+				<img class="w-11/12" src="./imgs/16-sec-1.png" alt="">
+			</div>
+			<div class="md:w-1/2">
+				<p class="leading-9 text-opacity-black">What would this world be if there was no compassion in it? With
+					the news being chockfull of dreary
+					dystopian items, the only ray of positivity is the ones that we can bring into our lives and that of
+					others.</p>
+				<p class="mt-2 leading-9 text-opacity-black">To ensure that every member of the V3Cube family is secure,
+					the
+					management has insured them for a sum total of up to INR 5, 00, 000/- We value our team and would do
+					everything in our power to make sure that they are safe, protected and secure.</p>
+				<p class="mt-2 leading-9 text-opacity-black">Team V3Cube also got in touch with an NGO working
+					tirelessly for the upliftment of animals. Apart from providing food in the form of nutritious dry
+					kibble, funds and medication to the Jivdaya Charitable Trust that champions the cause of
+					rehabilitation, care and medical help for un owned animals, we also provided them with two X Ray
+					machines to be able to give medical attention to animals when needed.</p>
+				<p class="mt-2 leading-9 text-opacity-black">But, it is not just the animals that are suffering. While
+					we have been fortunate enough to get the opportunity to work and earn, there are many homeless
+					people in need of many things. As a part of our Corporate Social Responsibility, our management
+					makes it a regular affair to donate blankets, packaged hygienic food, clean water and other
+					essentials to the homeless on a regular basis.</p>
+				<p class="mt-2 leading-9 text-opacity-black">We embrace our responsibilities and hope to bring about joy
+					as much as we can. What we are able to do might be a little, but our intentions are absolutely pure.
+					If you know of someone who needs help in our city or state, whether it is an animal welfare
+					organisation or an individual in dire need, please do not hesitate to contact us. We will try our
+					best to offer our assistance.</p>
+			</div>
+		</div>
+	</div>
+	<!-- end compassion -->
+
+	<!-- start make -->
+	<div class="items-center justify-center py-10 md:flex">
+		<div class="flex flex-col items-center justify-center gap-5 text-center blue-div">
+			<h1 class="text-4xl font-bold text-center text-white">MAKE YOUR FIRST $BILLION</h1>
+			<h1 class="text-xl text-white">AND BECOME THE MOST-SUCCESSFUL ENTREPRENEUR OF THIS ERA!</h1>
+			<h1 class="w-2/3 text-xl text-center text-white">Our clients are already making more than 300,000 USD! This
+				is the perfect time to launch the perfect App for your on-demand business – Multi Purpose Gojek Clone
+				App, Taxi, Deliver All, Food Delivery, Grocery Delivery, Pharmacy Delivery, All in one Medical App, Car
+				wash, Uber For X and much more! If you don't spot a solution for your business, V3Cube can build it
+				exclusively for you.
+			</h1>
+			<a href="#" class="text-xl btn-hover md:w-auto w-36 ">ALRIGHT! LET'S DO IT NOW !</a>
+		</div>
+	</div>
+	<!-- end make -->
+
+	<!-- start our process -->
+	<div class="bg-white-gray">
+		<div class="py-8 md:mx-8">
+			<div class="container flex flex-col items-center justify-center ">
+				<!-- content -->
+				<div class="text-center">
+					<h1 class="text-4xl font-bold text-ajebah-light-blue">OUR PROCESS</h1>
+					<h1 class="mt-6">DO YOU WANT TO KNOW HOW YOU CAN BUY V3CUBE’S AUTHENTIC SCRIPT? OR SIMPLY CURIOUS
+						ABOUT OUR PURCHASE PROCESS?</h1>
+					<h1 class="mt-3 text-opacity-black">At V3Cube we have dedicated ourselves to work relentlessly
+						towards Design and Development of Apps for Web, Mobile and Wearable Technologies. Each member of
+						the V3Cube has a dream of giving their own contribution to the field of technology. This is
+						probably the biggest reason, so as to why we have established a reputation of being the most
+						reliable company offering IT solutions.</h1>
+				</div>
+				<!-- first row -->
+				<div class="w-auto mt-6">
+					<div
+						class="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-8 md:items-start md:justify-start">
+						<div class="flex flex-col items-center justify-start gap-4 md:w-1/3">
+							<img src="./imgs/18-sec-1.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">YOU LIKE OUR PRODUCT?</p>
+							<p class="text-center text-opacity-black ">We sell Mature, Market-Tested and
+								Fully-Optimized Apps ONLY! Cherry-Pick any One App or More from our Spectacular
+								Portfolio of Sophisticated Products! Browse and Test Drive the Demo App for FREE for as
+								long as you want until you are completely satisfied that it is ‘THE ONE’!</p>
+						</div>
+						<div class="flex flex-col items-center justify-start gap-4 md:w-1/3">
+							<img src="./imgs/18-sec-2.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">YOUR CART IS WAITING!</p>
+							<p class="text-center text-opacity-black ">Place an Order immediately! Confused
+								about how to do that? Simple, Contact Us! We are here to serve you! Our Technical Team
+								will Brief you about all the Deliverables such as Android and iOS Apps, Admin Panel, Web
+								Panel, and Kiosks before taking any Step Further. Then, we shall Confirm your Order only
+								after you have made the Payment with Payment Milestones.</p>
+						</div>
+						<div class="flex flex-col items-center justify-start gap-4 md:w-1/3">
+							<img src="./imgs/18-sec-3.png" class="max-w-fit" alt="">
+							<p class="font-bold text-center">THE CRUCIAL STEP: APP LAUNCH</p>
+							<p class="text-center text-opacity-black ">We listen to what you have to say and
+								act according to your requirements. We respect and value all our clients and that
+								respect is always reflected in the way we deal with you.</p>
+						</div>
+					</div>
+				</div>
+				<!-- second row -->
+				<div>
+					<div class="w-auto mt-6">
+						<div
+							class="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-8 md:items-start md:justify-start">
+							<div class="flex flex-col items-center justify-start gap-4 md:w-1/3">
+								<img src="./imgs/18-sec-4.png" class="max-w-fit" alt="">
+								<p class="font-bold text-center">LOVE CUSTOMIZING?</p>
+								<p class="text-center text-opacity-black ">It is all about You and Your
+									Dream of becoming a Successful Entrepreneur! Go Gaga with your Imagination when it
+									comes to Customizing your App YOUR WAY! Let our Technical Team work round the Clock
+									to Gift-Wrap the App with Enhancements you asked for!</p>
+							</div>
+							<div class="flex flex-col items-center justify-start gap-4 md:w-1/3">
+								<img src="./imgs/18-sec-5.png" class="max-w-fit" alt="">
+								<p class="font-bold text-center">NOW, WE FOCUS ON WHITE-LABELING</p>
+								<p class="text-center text-opacity-black ">Yes, We just need 3 Days! We’ll
+									Rebrand our Base App with your Company’s Name and Logo. It is our sheer Pleasure to
+									give you the CHOICE of the Language and the Currency you want to integrate into your
+									Fully-Customized App. We’ll ask you to Review the Android and iOS Versions of the
+									App on our Development Server. We’ll move onto the Next Step only after you Approve
+									of the App.</p>
+							</div>
+							<div class="flex flex-col items-center justify-start gap-4 md:w-1/3">
+								<img src="./imgs/18-sec-6.png" class="max-w-fit" alt="">
+								<p class="font-bold text-center">AFTER-SALES SUPPORT</p>
+								<p class="text-center text-opacity-black ">We will provide you 1 Year
+									Support for Bugs that may show up in our Code. After Launching the App, we'll zip
+									and send a Lifetime Licensed Source Code for one Domain at no Extra Cost with
+									Purchase of the Package! Have a Query? Contact Us and we'll be there to assist you!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end our process -->
+
+	<!-- start real clients -->
+	<div class="container py-8">
+		<!-- content -->
+		<div class="text-center">
+			<h1 class="text-4xl font-bold text-ajebah-light-blue">REAL CLIENTS</h1>
+			<h1 class="mt-6">REAL V3CUBE REVIEWS</h1>
+		</div>
+		<!-- imgs -->
+		<div class="flex flex-col justify-between gap-4 mt-4 md:flex-row">
+			<div class="">
+				<img src="./imgs/19-sec-1.png" alt="">
+			</div>
+			<div class="flex flex-col justify-center mt-5 md:justify-between md:mt-0">
+				<div class="flex flex-col items-center gap-5 md:flex-row md:gap-10 md:justify-between">
+					<div>
+						<img src="./imgs/19-sec-2.png" alt="">
+					</div>
+					<div>
+						<img src="./imgs/19-sec-2.png" alt="">
+					</div>
+					<div>
+						<img src="./imgs/19-sec-2.png" alt="">
+					</div>
+				</div>
+				<div class="flex flex-col items-center gap-5 mt-5 md:flex-row md:mt-0 md:gap-10 ">
+					<div>
+						<img src="./imgs/19-sec-2.png" alt="">
+					</div>
+					<div>
+						<img src="./imgs/19-sec-2.png" alt="">
+					</div>
+					<div>
+						<img src="./imgs/19-sec-2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end real clients -->
+
+	<!-- Start Footer -->
+	<footer class="">
+		<div class="container">
+			<div class="foot-All">
+				<div class="logo-foot">
+					<a href="./index.html">
+						<img src="./imgs/logo.png" alt="" />
+					</a>
+				</div>
+				<div class="Contact-Us-Foot">
+					<h4>CONTACT US</h4>
+					<p>
+						<i class="fa-solid fa-location-dot"></i> 182 Gada Street ,Saudi
+						Arabia
+					</p>
+					<a href="tel:+01154258770">
+						<p>
+							<i class="fa-solid fa-phone"></i> Phone: +20 120 009 71 27
+						</p>
+					</a>
+					<a href="mailto:name@email.com">
+						<p><i class="fa-solid fa-envelope"></i> Email: info@3X1.IO</p>
+					</a>
+				</div>
+				<div class="About-Foot">
+					<h4>ABOUT</h4>
+					<a href="#">Terms & Conditions</a>
+					<a href="#">Policy</a>
+					<a href="#">Blogs</a>
+				</div>
+				<div class="Follow-Us-Foot">
+					<h4>FOLLOW US</h4>
+					<div class="LOGO-FOOT">
+						<a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+						<a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="http://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+						<a href="http://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="English">
+					<select id="countries"
+						class="bg-white-gray   block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+						<option selected>Enlish</option>
+						<option value="EGY">العربية</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="khat-foot"></div>
+		<div class="txt-under-foot">
+			<p>copyrights <i class="fa-regular fa-copyright"></i> 2022</p>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
