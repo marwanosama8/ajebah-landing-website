@@ -413,7 +413,7 @@ video {
 @font-face {
   font-family: 'Cairo';
 
-  src: url('/fonts/cairo-v20-latin-regular.woff') format('woff')
+  src: url('./fonts/cairo-v20-latin-regular.woff') format('woff')
 }
 
 *, ::before, ::after {
@@ -2261,7 +2261,7 @@ video {
 .orange-div {
   width: auto;
   height: 577px;
-  background-image: url(./imgs/ninth-sec.png);
+  background-image: url(../imgs/ninth-sec.png);
 }
 
 @media (max-width: 767px) {
@@ -2269,7 +2269,7 @@ video {
     width: auto;
     background-size: 4122px;
     height: 1154px;
-    background-image: url(./imgs/ninth-sec.png);
+    background-image: url(../imgs/ninth-sec.png);
   }
 
   .orange-div img {
@@ -2280,7 +2280,7 @@ video {
 .blue-div {
   width: auto;
   height: 577px;
-  background-image: url(./imgs/17-sec-1.png);
+  background-image: url(.,/imgs/17-sec-1.png);
 }
 
 @media (max-width: 767px) {
@@ -2288,7 +2288,7 @@ video {
     width: auto;
     background-size: 4122px;
     height: 1154px;
-    background-image: url(./imgs/17-sec-1.png);
+    background-image: url(.,/imgs/17-sec-1.png);
   }
 
   .need-width {
